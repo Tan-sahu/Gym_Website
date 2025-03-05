@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga & Flexibility - Elite Gym</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="index.html"><img src="img/Logo.png" class="tanishka-logo" alt="logo" /></a>
+            <a class="navbar-brand" href="index.html">Elite Gym</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#programs">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#trainers">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="mb-4">Yoga & Flexibility</h1>
+                <img src="img/yoga (1).png" class="img-fluid mb-4" alt="Yoga & Flexibility">
+                <p class="lead">Improve flexibility, reduce stress, and enhance mindfulness with our yoga and flexibility programs.</p>
+                <h3>What You'll Learn</h3>
+                <ul>
+                    <li>Basic to advanced yoga poses</li>
+                    <li>Breathing techniques</li>
+                    <li>Stretching routines</li>
+                    <li>Mindfulness and meditation</li>
+                </ul>
+                <h3>Program Highlights</h3>
+                <p>Our yoga sessions are suitable for all levels, from beginners to advanced practitioners. Join us to experience the physical and mental benefits of yoga.</p>
+                <a href="index.html#programs" class="btn btn-primary">Back to Programs</a>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+                        <li><a href="#programs" class="text-white text-decoration-none">Programs</a></li>
+                        <li><a href="#trainers" class="text-white text-decoration-none">Trainers</a></li>
+                        <li><a href="#membership" class="text-white text-decoration-none">Membership Plans</a></li>
+                        <li><a href="#blog" class="text-white text-decoration-none">Blogs</a></li>
+                        <li><a href="#gallery" class="text-white text-decoration-none">Gallery</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Gym City, GC 12345</li>
+                        <li><i class="fas fa-phone"></i> +91 123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> info@elitegym.com</li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <form id="newsletterForm">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="small">Stay updated with our latest news and offers.</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="social-links mb-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook icon"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram icon"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube icon"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter icon"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Elite Gym. All Rights Reserved.</p>
+                    <p class="small">Designed by Tanishka Sahu</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById("newsletterForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const email = this.querySelector("input[type='email']").value;
+            alert(`Thank you for subscribing! We will send updates to ${email}.`);
+            this.reset();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
